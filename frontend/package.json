@@ -1,0 +1,27 @@
+{
+  "name": "bookshelf",
+  "version": "1.0.0",
+  "description": "Books shelf application",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp"
+  },
+  "author": "Ahmed Magdy",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "*",
+    "flux": "^3.1.3",
+    "gulp": "*",
+    "object-assign": "*",
+    "reactify": "*",
+    "vinyl-source-stream": "*"
+  },
+  "dependencies": {
+    "react": "^15.7.0",
+    "react-dom": "^15.7.0"
+  },
+  "optionalDependencies": {
+    "fsevents": "^2.2.1"
+  }
+}
